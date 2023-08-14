@@ -1,5 +1,9 @@
 {
   "itemGroup.moredefaultarmor.world_armors": "More Default Armor",
+  "item.moredefaultarmor.dirt_helmet": "Erde Helm",
+  "item.moredefaultarmor.dirt_chestplate": "Erde Brustplatte",
+  "item.moredefaultarmor.dirt_leggings": "Erde Hose",
+  "item.moredefaultarmor.dirt_boots": "Erde Schuhe",
   "item.moredefaultarmor.oak_helmet": "Eichen Helm",
   "item.moredefaultarmor.oak_chestplate": "Eichen Brustplatte",
   "item.moredefaultarmor.oak_leggings": "Eichen Hose",
