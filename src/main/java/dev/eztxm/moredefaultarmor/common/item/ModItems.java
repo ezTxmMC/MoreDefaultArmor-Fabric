@@ -3,6 +3,7 @@ package dev.eztxm.moredefaultarmor.common.item;
 import dev.eztxm.moredefaultarmor.MoreDefaultArmor;
 import dev.eztxm.moredefaultarmor.common.armor.DirtArmorMaterial;
 import dev.eztxm.moredefaultarmor.common.armor.OakArmorMaterial;
+import dev.eztxm.moredefaultarmor.common.armor.StoneArmorMaterial;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
@@ -53,6 +54,24 @@ public class ModItems {
         OAK_CHESTPLATE = registerItem("oak_chestplate", new OakArmorMaterial(), ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         OAK_LEGGINGS = registerItem("oak_leggings", new OakArmorMaterial(), ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         OAK_BOOTS = registerItem("oak_boots", new OakArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);
+        //endregion
+        //region Stone
+        COBBLESTONE_HELMET = registerItem("cobblestone_helmet", new StoneArmorMaterial(), ArmorItem.Type.HELMET, Rarity.COMMON);
+        COBBLESTONE_CHESTPLATE = registerItem("cobblestone_chestplate", new StoneArmorMaterial(), ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        COBBLESTONE_LEGGINGS = registerItem("cobblestone_leggings", new StoneArmorMaterial(), ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        COBBLESTONE_BOOTS = registerItem("cobblestone_boots", new StoneArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);
+        ANDESITE_HELMET = registerItem("andesite_helmet", new StoneArmorMaterial(), ArmorItem.Type.HELMET, Rarity.COMMON);
+        ANDESITE_CHESTPLATE = registerItem("andesite_chestplate", new StoneArmorMaterial(), ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        ANDESITE_LEGGINGS = registerItem("andesite_leggings", new StoneArmorMaterial(), ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        ANDESITE_BOOTS = registerItem("andesite_boots", new StoneArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);
+        DIORITE_HELMET = registerItem("diorite_helmet", new StoneArmorMaterial(), ArmorItem.Type.HELMET, Rarity.COMMON);
+        DIORITE_CHESTPLATE = registerItem("diorite_chestplate", new StoneArmorMaterial(), ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        DIORITE_LEGGINGS = registerItem("diorite_leggings", new StoneArmorMaterial(), ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        DIORITE_BOOTS = registerItem("diorite_boots", new StoneArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);
+        GRANITE_HELMET = registerItem("granite_helmet", new StoneArmorMaterial(), ArmorItem.Type.HELMET, Rarity.COMMON);
+        GRANITE_CHESTPLATE = registerItem("granite_chestplate", new StoneArmorMaterial(), ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        GRANITE_LEGGINGS = registerItem("granite_leggings", new StoneArmorMaterial(), ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        GRANITE_BOOTS = registerItem("granite_boots", new StoneArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);
         //endregion
     }
 
