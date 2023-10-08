@@ -7,9 +7,9 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
-public class StoneArmorMaterial implements ArmorMaterial {
+public class CobblestoneArmorMaterial implements ArmorMaterial {
     private static final int[] BASE_DURABILITY = new int[] {79, 84, 81, 68};
-    private static final int[] PROTECTION_VALUES = new int[] {2, 4, 3, 1};
+    private static final int[] PROTECTION_VALUES = new int[] {2, 3, 4, 1};
 
     @Override
     public int getDurability(ArmorItem.Type type) {
@@ -33,12 +33,12 @@ public class StoneArmorMaterial implements ArmorMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.OAK_LOG);
+        return Ingredient.ofItems(Items.COBBLESTONE);
     }
 
     @Override
     public String getName() {
-        return "stone";
+        return "cobblestone";
     }
 
     @Override

@@ -1,9 +1,8 @@
 package dev.eztxm.moredefaultarmor.common.item;
 
 import dev.eztxm.moredefaultarmor.MoreDefaultArmor;
-import dev.eztxm.moredefaultarmor.common.armor.DirtArmorMaterial;
 import dev.eztxm.moredefaultarmor.common.armor.OakArmorMaterial;
-import dev.eztxm.moredefaultarmor.common.armor.StoneArmorMaterial;
+import dev.eztxm.moredefaultarmor.common.armor.CobblestoneArmorMaterial;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
@@ -56,10 +55,10 @@ public class ModItems {
         OAK_BOOTS = registerItem("oak_boots", new OakArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);
         //endregion
         //region Stone
-        COBBLESTONE_HELMET = registerItem("cobblestone_helmet", new StoneArmorMaterial(), ArmorItem.Type.HELMET, Rarity.COMMON);
-        COBBLESTONE_CHESTPLATE = registerItem("cobblestone_chestplate", new StoneArmorMaterial(), ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
-        COBBLESTONE_LEGGINGS = registerItem("cobblestone_leggings", new StoneArmorMaterial(), ArmorItem.Type.LEGGINGS, Rarity.COMMON);
-        COBBLESTONE_BOOTS = registerItem("cobblestone_boots", new StoneArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);
+        COBBLESTONE_HELMET = registerItem("cobblestone_helmet", new CobblestoneArmorMaterial(), ArmorItem.Type.HELMET, Rarity.COMMON);
+        COBBLESTONE_CHESTPLATE = registerItem("cobblestone_chestplate", new CobblestoneArmorMaterial(), ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        COBBLESTONE_LEGGINGS = registerItem("cobblestone_leggings", new CobblestoneArmorMaterial(), ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        COBBLESTONE_BOOTS = registerItem("cobblestone_boots", new CobblestoneArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);
         /*ANDESITE_HELMET = registerItem("andesite_helmet", new StoneArmorMaterial(), ArmorItem.Type.HELMET, Rarity.COMMON);
         ANDESITE_CHESTPLATE = registerItem("andesite_chestplate", new StoneArmorMaterial(), ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         ANDESITE_LEGGINGS = registerItem("andesite_leggings", new StoneArmorMaterial(), ArmorItem.Type.LEGGINGS, Rarity.COMMON);
