@@ -44,10 +44,10 @@ public class ModItems {
 
     public static void registerItems() {
         //region Dirt
-        DIRT_HELMET = registerItem("dirt_helmet.json", new DirtArmorMaterial(), ArmorItem.Type.HELMET, Rarity.COMMON);
+        /*DIRT_HELMET = registerItem("cobblestone_helmet.json", new DirtArmorMaterial(), ArmorItem.Type.HELMET, Rarity.COMMON);
         DIRT_CHESTPLATE = registerItem("dirt_chestplate", new DirtArmorMaterial(), ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         DIRT_LEGGINGS = registerItem("dirt_leggings", new DirtArmorMaterial(), ArmorItem.Type.LEGGINGS, Rarity.COMMON);
-        DIRT_BOOTS = registerItem("dirt_boots", new DirtArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);
+        DIRT_BOOTS = registerItem("dirt_boots", new DirtArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);*/
         //endregion
         //region Oak Wood
         OAK_HELMET = registerItem("oak_helmet", new OakArmorMaterial(), ArmorItem.Type.HELMET, Rarity.COMMON);
@@ -60,7 +60,7 @@ public class ModItems {
         COBBLESTONE_CHESTPLATE = registerItem("cobblestone_chestplate", new StoneArmorMaterial(), ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         COBBLESTONE_LEGGINGS = registerItem("cobblestone_leggings", new StoneArmorMaterial(), ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         COBBLESTONE_BOOTS = registerItem("cobblestone_boots", new StoneArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);
-        ANDESITE_HELMET = registerItem("andesite_helmet", new StoneArmorMaterial(), ArmorItem.Type.HELMET, Rarity.COMMON);
+        /*ANDESITE_HELMET = registerItem("andesite_helmet", new StoneArmorMaterial(), ArmorItem.Type.HELMET, Rarity.COMMON);
         ANDESITE_CHESTPLATE = registerItem("andesite_chestplate", new StoneArmorMaterial(), ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         ANDESITE_LEGGINGS = registerItem("andesite_leggings", new StoneArmorMaterial(), ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         ANDESITE_BOOTS = registerItem("andesite_boots", new StoneArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);
@@ -71,7 +71,7 @@ public class ModItems {
         GRANITE_HELMET = registerItem("granite_helmet", new StoneArmorMaterial(), ArmorItem.Type.HELMET, Rarity.COMMON);
         GRANITE_CHESTPLATE = registerItem("granite_chestplate", new StoneArmorMaterial(), ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         GRANITE_LEGGINGS = registerItem("granite_leggings", new StoneArmorMaterial(), ArmorItem.Type.LEGGINGS, Rarity.COMMON);
-        GRANITE_BOOTS = registerItem("granite_boots", new StoneArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);
+        GRANITE_BOOTS = registerItem("granite_boots", new StoneArmorMaterial(), ArmorItem.Type.BOOTS, Rarity.COMMON);*/
         //endregion
     }
 

@@ -7,5 +7,9 @@
   "item.moredefaultarmor.oak_helmet": "Oak Helmet",
   "item.moredefaultarmor.oak_chestplate": "Oak Chestplate",
   "item.moredefaultarmor.oak_leggings": "Oak Leggings",
-  "item.moredefaultarmor.oak_boots": "Oak Boots"
+  "item.moredefaultarmor.oak_boots": "Oak Boots",
+  "item.moredefaultarmor.cobblestone_helmet": "Cobblestone Helmet",
+  "item.moredefaultarmor.cobblestone_chestplate": "Cobblestone Chestplate",
+  "item.moredefaultarmor.cobblestone_leggings": "Cobblestone Leggings",
+  "item.moredefaultarmor.cobblestone_boots": "Cobblestone Boots"
 }

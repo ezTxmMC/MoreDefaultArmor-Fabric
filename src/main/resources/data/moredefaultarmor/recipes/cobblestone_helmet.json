@@ -1,16 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "# #",
     "###",
-    "###"
+    "# #"
   ],
   "key": {
     "#": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:cobblestone"
     }
   },
   "result": {
-    "item": "moredefaultarmor:dirt_chestplate"
+    "item": "moredefaultarmor:cobblestone_helmet"
   }
 }
