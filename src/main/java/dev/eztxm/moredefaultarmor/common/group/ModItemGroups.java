@@ -24,14 +24,14 @@ public class ModItemGroups {
                 .icon(() -> new ItemStack(ModItems.OAK_CHESTPLATE))
                 .displayName(Text.of("MoreDefaultArmor - Overworld"))
                 .entries((displayContext, entries) -> {
-                    entries.add(ModItems.DIRT_HELMET);
-                    entries.add(ModItems.DIRT_CHESTPLATE);
-                    entries.add(ModItems.DIRT_LEGGINGS);
-                    entries.add(ModItems.DIRT_BOOTS);
                     entries.add(ModItems.OAK_HELMET);
                     entries.add(ModItems.OAK_CHESTPLATE);
                     entries.add(ModItems.OAK_LEGGINGS);
                     entries.add(ModItems.OAK_BOOTS);
+                    entries.add(ModItems.COBBLESTONE_HELMET);
+                    entries.add(ModItems.COBBLESTONE_CHESTPLATE);
+                    entries.add(ModItems.COBBLESTONE_LEGGINGS);
+                    entries.add(ModItems.COBBLESTONE_BOOTS);
                 })
                 .build());
     }
