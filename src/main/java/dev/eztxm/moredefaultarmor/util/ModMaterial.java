@@ -1,8 +1,5 @@
 package dev.eztxm.moredefaultarmor.util;
 
-import lombok.Getter;
-
-@Getter
 public enum ModMaterial {
     DIRT(1, 1, 1, 1, 0, 0, 0),
     OAK(1, 2, 2, 1, 0, 0, 0),
@@ -18,5 +15,21 @@ public enum ModMaterial {
         this.enchantmentValue = enchantmentValue;
         this.toughness = toughness;
         this.knockbackResistance = knockbackResistance;
+    }
+
+    public int getEnchantmentValue() {
+        return enchantmentValue;
+    }
+
+    public int[] getProtectionAmounts() {
+        return protectionAmounts;
+    }
+
+    public float getToughness() {
+        return toughness;
+    }
+
+    public float getKnockbackResistance() {
+        return knockbackResistance;
     }
 }
