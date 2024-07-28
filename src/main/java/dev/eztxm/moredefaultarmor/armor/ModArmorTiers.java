@@ -21,7 +21,12 @@ public enum ModArmorTiers implements ArmorMaterial {
     ANDESITE("andesite", ModMaterial.STONE, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.ANDESITE), new int[]{79, 84, 81, 68}),
     DIORITE("diorite", ModMaterial.STONE, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.DIORITE), new int[]{79, 84, 81, 68}),
     GRANITE("granite", ModMaterial.STONE, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.GRANITE), new int[]{79, 84, 81, 68}),
-    DEEPSLATE_COBBLE("deepslate_cobble", ModMaterial.STONE, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.COBBLED_DEEPSLATE), new int[]{79, 84, 81, 68});
+    DEEPSLATE_COBBLE("deepslate_cobble", ModMaterial.STONE, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.COBBLED_DEEPSLATE), new int[]{79, 84, 81, 68}),
+
+    // Nether
+    NETHERRACK("netherrack", ModMaterial.NETHERRACK, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.NETHERRACK), new int[]{19, 28, 32, 25});
+
+    // End
 
     private final String name;
     private final int[] baseDurability;
