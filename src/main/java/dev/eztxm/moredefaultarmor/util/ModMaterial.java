@@ -1,9 +1,13 @@
 package dev.eztxm.moredefaultarmor.util;
 
 public enum ModMaterial {
+    //overworld
     DIRT(1, 1, 1, 1, 0, 0, 0),
     OAK(1, 2, 2, 1, 0, 0, 0),
-    STONE(2, 3, 4, 1, 0, 0, 0);
+    STONE(2, 3, 4, 1, 0, 0, 0),
+
+    //nether
+    NETHERRACK(1, 1, 1, 1, 0, 0, 0);
 
     private final int[] protectionAmounts;
     private final int enchantmentValue;

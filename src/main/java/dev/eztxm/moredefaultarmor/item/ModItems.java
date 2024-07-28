@@ -11,6 +11,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
 public class ModItems {
+
+    //overworld
     public static Item DIRT_HELMET;
     public static Item DIRT_CHESTPLATE;
     public static Item DIRT_LEGGINGS;
@@ -39,6 +41,13 @@ public class ModItems {
     public static Item DEEPSLATE_COBBLE_CHESTPLATE;
     public static Item DEEPSLATE_COBBLE_LEGGINGS;
     public static Item DEEPSLATE_COBBLE_BOOTS;
+
+    //nether
+    public static Item NETHERRACK_HELMET;
+    public static Item NETHERRACK_CHESTPLATE;
+    public static Item NETHERRACK_LEGGINGS;
+    public static Item NETHERRACK_BOOTS;
+    //end
 
     public static void registerItems() {
         DIRT_HELMET = registerItem("dirt_helmet", ModArmorTiers.DIRT, ArmorItem.Type.HELMET, Rarity.COMMON);
@@ -75,6 +84,11 @@ public class ModItems {
         DEEPSLATE_COBBLE_CHESTPLATE = registerItem("deepslate_cobble_chestplate", ModArmorTiers.STONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         DEEPSLATE_COBBLE_LEGGINGS = registerItem("deepslate_cobble_leggings", ModArmorTiers.STONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         DEEPSLATE_COBBLE_BOOTS = registerItem("deepslate_cobble_boots", ModArmorTiers.STONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        NETHERRACK_HELMET = registerItem("netherrack_helmet", ModArmorTiers.NETHERRACK, ArmorItem.Type.HELMET, Rarity.COMMON);
+        NETHERRACK_CHESTPLATE = registerItem("netherrack_chestplate", ModArmorTiers.NETHERRACK, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        NETHERRACK_LEGGINGS = registerItem("netherrack_leggings", ModArmorTiers.NETHERRACK, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        NETHERRACK_BOOTS = registerItem("netherrack_boots", ModArmorTiers.NETHERRACK, ArmorItem.Type.BOOTS, Rarity.COMMON);
     }
 
     private static Item registerItem(String name, ArmorMaterial material, ArmorItem.Type type, Rarity rarity) {

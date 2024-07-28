@@ -47,6 +47,10 @@ public class ModItemTabs {
                     entries.add(ModItems.GRANITE_CHESTPLATE);
                     entries.add(ModItems.GRANITE_LEGGINGS);
                     entries.add(ModItems.GRANITE_BOOTS);
+                    entries.add(ModItems.NETHERRACK_HELMET);
+                    entries.add(ModItems.NETHERRACK_CHESTPLATE);
+                    entries.add(ModItems.NETHERRACK_LEGGINGS);
+                    entries.add(ModItems.NETHERRACK_BOOTS);
                 })
                 .build());
     }
