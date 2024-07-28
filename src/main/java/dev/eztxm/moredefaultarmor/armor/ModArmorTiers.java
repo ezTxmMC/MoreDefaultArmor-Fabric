@@ -1,5 +1,6 @@
 package dev.eztxm.moredefaultarmor.armor;
 
+import dev.eztxm.moredefaultarmor.MoreDefaultArmor;
 import dev.eztxm.moredefaultarmor.util.LazyValue;
 import dev.eztxm.moredefaultarmor.util.ModMaterial;
 import net.minecraft.item.ArmorItem;
@@ -59,7 +60,7 @@ public enum ModArmorTiers implements ArmorMaterial {
 
     @Override
     public @NotNull String getName() {
-        return this.name;
+        return MoreDefaultArmor.MOD_ID +  ":" + this.name;
     }
 
     @Override
