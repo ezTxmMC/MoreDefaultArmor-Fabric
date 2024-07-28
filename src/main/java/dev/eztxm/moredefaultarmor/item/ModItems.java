@@ -60,35 +60,30 @@ public class ModItems {
         OAK_LEGGINGS = registerItem("oak_leggings", ModArmorTiers.OAK, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         OAK_BOOTS = registerItem("oak_boots", ModArmorTiers.OAK, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
-        COBBLESTONE_HELMET = registerItem("cobblestone_helmet", ModArmorTiers.STONE, ArmorItem.Type.HELMET, Rarity.COMMON);
-        COBBLESTONE_CHESTPLATE = registerItem("cobblestone_chestplate", ModArmorTiers.STONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
-        COBBLESTONE_LEGGINGS = registerItem("cobblestone_leggings", ModArmorTiers.STONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
-        COBBLESTONE_BOOTS = registerItem("cobblestone_boots", ModArmorTiers.STONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
+        COBBLESTONE_HELMET = registerItem("cobblestone_helmet", ModArmorTiers.COBBLESTONE, ArmorItem.Type.HELMET, Rarity.COMMON);
+        COBBLESTONE_CHESTPLATE = registerItem("cobblestone_chestplate", ModArmorTiers.COBBLESTONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        COBBLESTONE_LEGGINGS = registerItem("cobblestone_leggings", ModArmorTiers.COBBLESTONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        COBBLESTONE_BOOTS = registerItem("cobblestone_boots", ModArmorTiers.COBBLESTONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
-        ANDESITE_HELMET = registerItem("andesite_helmet", ModArmorTiers.STONE, ArmorItem.Type.HELMET, Rarity.COMMON);
-        ANDESITE_CHESTPLATE = registerItem("andesite_chestplate", ModArmorTiers.STONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
-        ANDESITE_LEGGINGS = registerItem("andesite_leggings", ModArmorTiers.STONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
-        ANDESITE_BOOTS = registerItem("andesite_boots", ModArmorTiers.STONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
+        ANDESITE_HELMET = registerItem("andesite_helmet", ModArmorTiers.ANDESITE, ArmorItem.Type.HELMET, Rarity.COMMON);
+        ANDESITE_CHESTPLATE = registerItem("andesite_chestplate", ModArmorTiers.ANDESITE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        ANDESITE_LEGGINGS = registerItem("andesite_leggings", ModArmorTiers.ANDESITE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        ANDESITE_BOOTS = registerItem("andesite_boots", ModArmorTiers.ANDESITE, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
-        DIORITE_HELMET = registerItem("diorite_helmet", ModArmorTiers.STONE, ArmorItem.Type.HELMET, Rarity.COMMON);
-        DIORITE_CHESTPLATE = registerItem("diorite_chestplate", ModArmorTiers.STONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
-        DIORITE_LEGGINGS = registerItem("diorite_leggings", ModArmorTiers.STONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
-        DIORITE_BOOTS = registerItem("diorite_boots", ModArmorTiers.STONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
+        DIORITE_HELMET = registerItem("diorite_helmet", ModArmorTiers.DIORITE, ArmorItem.Type.HELMET, Rarity.COMMON);
+        DIORITE_CHESTPLATE = registerItem("diorite_chestplate", ModArmorTiers.DIORITE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        DIORITE_LEGGINGS = registerItem("diorite_leggings", ModArmorTiers.DIORITE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        DIORITE_BOOTS = registerItem("diorite_boots", ModArmorTiers.DIORITE, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
-        GRANITE_HELMET = registerItem("granite_helmet", ModArmorTiers.STONE, ArmorItem.Type.HELMET, Rarity.COMMON);
-        GRANITE_CHESTPLATE = registerItem("granite_chestplate", ModArmorTiers.STONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
-        GRANITE_LEGGINGS = registerItem("granite_leggings", ModArmorTiers.STONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
-        GRANITE_BOOTS = registerItem("granite_boots", ModArmorTiers.STONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
+        GRANITE_HELMET = registerItem("granite_helmet", ModArmorTiers.GRANITE, ArmorItem.Type.HELMET, Rarity.COMMON);
+        GRANITE_CHESTPLATE = registerItem("granite_chestplate", ModArmorTiers.GRANITE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        GRANITE_LEGGINGS = registerItem("granite_leggings", ModArmorTiers.GRANITE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        GRANITE_BOOTS = registerItem("granite_boots", ModArmorTiers.GRANITE, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
-        DEEPSLATE_COBBLE_HELMET = registerItem("deepslate_cobble_helmet", ModArmorTiers.STONE, ArmorItem.Type.HELMET, Rarity.COMMON);
-        DEEPSLATE_COBBLE_CHESTPLATE = registerItem("deepslate_cobble_chestplate", ModArmorTiers.STONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
-        DEEPSLATE_COBBLE_LEGGINGS = registerItem("deepslate_cobble_leggings", ModArmorTiers.STONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
-        DEEPSLATE_COBBLE_BOOTS = registerItem("deepslate_cobble_boots", ModArmorTiers.STONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
-
-        NETHERRACK_HELMET = registerItem("netherrack_helmet", ModArmorTiers.NETHERRACK, ArmorItem.Type.HELMET, Rarity.COMMON);
-        NETHERRACK_CHESTPLATE = registerItem("netherrack_chestplate", ModArmorTiers.NETHERRACK, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
-        NETHERRACK_LEGGINGS = registerItem("netherrack_leggings", ModArmorTiers.NETHERRACK, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
-        NETHERRACK_BOOTS = registerItem("netherrack_boots", ModArmorTiers.NETHERRACK, ArmorItem.Type.BOOTS, Rarity.COMMON);
+        DEEPSLATE_COBBLE_HELMET = registerItem("deepslate_cobble_helmet", ModArmorTiers.DEEPSLATE_COBBLE, ArmorItem.Type.HELMET, Rarity.COMMON);
+        DEEPSLATE_COBBLE_CHESTPLATE = registerItem("deepslate_cobble_chestplate", ModArmorTiers.DEEPSLATE_COBBLE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        DEEPSLATE_COBBLE_LEGGINGS = registerItem("deepslate_cobble_leggings", ModArmorTiers.DEEPSLATE_COBBLE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        DEEPSLATE_COBBLE_BOOTS = registerItem("deepslate_cobble_boots", ModArmorTiers.DEEPSLATE_COBBLE, ArmorItem.Type.BOOTS, Rarity.COMMON);
     }
 
     private static Item registerItem(String name, ArmorMaterial material, ArmorItem.Type type, Rarity rarity) {
