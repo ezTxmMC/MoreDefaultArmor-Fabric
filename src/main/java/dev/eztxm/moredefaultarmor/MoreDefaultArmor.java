@@ -1,7 +1,7 @@
 package dev.eztxm.moredefaultarmor;
 
-import dev.eztxm.moredefaultarmor.common.group.ModItemGroups;
-import dev.eztxm.moredefaultarmor.common.item.ModItems;
+import dev.eztxm.moredefaultarmor.item.ModItemTabs;
+import dev.eztxm.moredefaultarmor.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 public class MoreDefaultArmor implements ModInitializer {
@@ -9,8 +9,8 @@ public class MoreDefaultArmor implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        ModItemGroups.registerItemGroups();
+        ModItemTabs.registerItemGroups();
         ModItems.registerItems();
-        ModItemGroups.setupItemGroups();
+        ModItemTabs.setupItemGroups();
     }
 }

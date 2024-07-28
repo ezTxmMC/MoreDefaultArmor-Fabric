@@ -1,7 +1,6 @@
-package dev.eztxm.moredefaultarmor.common.group;
+package dev.eztxm.moredefaultarmor.item;
 
 import dev.eztxm.moredefaultarmor.MoreDefaultArmor;
-import dev.eztxm.moredefaultarmor.common.item.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -12,7 +11,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-public class ModItemGroups {
+public class ModItemTabs {
     public static RegistryKey<ItemGroup> WORLD_ARMORS_GROUP;
 
     public static void registerItemGroups() {

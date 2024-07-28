@@ -11,5 +11,9 @@
   "item.moredefaultarmor.cobblestone_helmet": "Bruchstein Helm",
   "item.moredefaultarmor.cobblestone_chestplate": "Bruchstein Brustplatte",
   "item.moredefaultarmor.cobblestone_leggings": "Bruchstein Hose",
-  "item.moredefaultarmor.cobblestone_boots": "Bruchstein Schuhe"
+  "item.moredefaultarmor.cobblestone_boots": "Bruchstein Schuhe",
+  "item.moredefaultarmor.diorite_helmet": "Diorit Helm",
+  "item.moredefaultarmor.diorite_chestplate": "Diorit Brustplatte",
+  "item.moredefaultarmor.diorite_leggings": "Diorit Hose",
+  "item.moredefaultarmor.diorite_boots": "Diorit Schuhe"
 }

@@ -5,13 +5,14 @@
   "name": "MoreDefaultArmor",
   "description": "This mod adds much more armor from standard materials",
   "authors": [
-    "ezTxmMC"
+    "ezTxmMC",
+    "DekayPlay"
   ],
   "contact": {
     "website": "https://eztxm.de",
     "repo": "https://github.com/ezTxmMC/MoreDefaultArmor"
   },
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "main": [
