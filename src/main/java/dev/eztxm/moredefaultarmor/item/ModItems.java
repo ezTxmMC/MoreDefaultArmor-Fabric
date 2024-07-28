@@ -84,6 +84,11 @@ public class ModItems {
         DEEPSLATE_COBBLE_CHESTPLATE = registerItem("deepslate_cobble_chestplate", ModArmorTiers.DEEPSLATE_COBBLE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         DEEPSLATE_COBBLE_LEGGINGS = registerItem("deepslate_cobble_leggings", ModArmorTiers.DEEPSLATE_COBBLE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         DEEPSLATE_COBBLE_BOOTS = registerItem("deepslate_cobble_boots", ModArmorTiers.DEEPSLATE_COBBLE, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        NETHERRACK_HELMET = registerItem("netherrack_helmet", ModArmorTiers.NETHERRACK, ArmorItem.Type.HELMET, Rarity.COMMON);
+        NETHERRACK_CHESTPLATE = registerItem("netherrack_chestplate", ModArmorTiers.NETHERRACK, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        NETHERRACK_LEGGINGS = registerItem("netherrack_leggings", ModArmorTiers.NETHERRACK, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        NETHERRACK_BOOTS = registerItem("netherrack_boots", ModArmorTiers.NETHERRACK, ArmorItem.Type.BOOTS, Rarity.COMMON);
     }
 
     private static Item registerItem(String name, ArmorMaterial material, ArmorItem.Type type, Rarity rarity) {
