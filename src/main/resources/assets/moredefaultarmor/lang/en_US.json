@@ -29,5 +29,9 @@
   "item.moredefaultarmor.netherrack_helmet": "Netherrack Helmet",
   "item.moredefaultarmor.netherrack_chestplate": "Netherrack Chestplate",
   "item.moredefaultarmor.netherrack_leggings": "Netherrack Leggings",
-  "item.moredefaultarmor.netherrack_boots": "Netherrack Boots"
+  "item.moredefaultarmor.netherrack_boots": "Netherrack Boots",
+  "item.moredefaultarmor.endstone_helmet": "Endstone Helmet",
+  "item.moredefaultarmor.endstone_chestplate": "Endstone Chestplate",
+  "item.moredefaultarmor.endstone_leggings": "Endstone Leggings",
+  "item.moredefaultarmor.endstone_boots": "Endstone Boots"
 }

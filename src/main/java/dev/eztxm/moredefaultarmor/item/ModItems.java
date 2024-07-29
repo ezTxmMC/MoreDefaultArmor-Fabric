@@ -48,6 +48,10 @@ public class ModItems {
     public static Item NETHERRACK_LEGGINGS;
     public static Item NETHERRACK_BOOTS;
     //end
+    public static Item ENDSTONE_HELMET;
+    public static Item ENDSTONE_CHESTPLATE;
+    public static Item ENDSTONE_LEGGINGS;
+    public static Item ENDSTONE_BOOTS;
 
     public static void registerItems() {
         DIRT_HELMET = registerItem("dirt_helmet", ModArmorTiers.DIRT, ArmorItem.Type.HELMET, Rarity.COMMON);
@@ -89,6 +93,11 @@ public class ModItems {
         NETHERRACK_CHESTPLATE = registerItem("netherrack_chestplate", ModArmorTiers.NETHERRACK, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         NETHERRACK_LEGGINGS = registerItem("netherrack_leggings", ModArmorTiers.NETHERRACK, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         NETHERRACK_BOOTS = registerItem("netherrack_boots", ModArmorTiers.NETHERRACK, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        ENDSTONE_HELMET = registerItem("endstone_helmet", ModArmorTiers.ENDSTONE, ArmorItem.Type.HELMET, Rarity.COMMON);
+        ENDSTONE_CHESTPLATE = registerItem("endstone_chestplate", ModArmorTiers.ENDSTONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        ENDSTONE_LEGGINGS = registerItem("endstone_leggings", ModArmorTiers.ENDSTONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        ENDSTONE_BOOTS = registerItem("endstone_boots", ModArmorTiers.ENDSTONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
     }
 
     private static Item registerItem(String name, ArmorMaterial material, ArmorItem.Type type, Rarity rarity) {
