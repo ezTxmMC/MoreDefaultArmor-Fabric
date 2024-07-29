@@ -1,5 +1,6 @@
 package dev.eztxm.moredefaultarmor.util;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
@@ -28,9 +29,8 @@ public class UpdateChecker {
             String line = reader.readLine();
             JSONObject jsonObject = new JSONObject(line);
             return jsonObject.getString("Latest-Version");
-        } catch (IOException e) {
-            e.fillInStackTrace();
+        } catch (IOException | JSONException e) {
+            return null;
         }
-        return null;
     }
 }
