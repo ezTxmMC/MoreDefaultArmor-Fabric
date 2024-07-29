@@ -48,6 +48,11 @@ public class ModItems {
     public static Item NETHERRACK_LEGGINGS;
     public static Item NETHERRACK_BOOTS;
 
+    public static Item SMOOTH_BASALT_HELMET;
+    public static Item SMOOTH_BASALT_CHESTPLATE;
+    public static Item SMOOTH_BASALT_LEGGINGS;
+    public static Item SMOOTH_BASALT_BOOTS;
+
     // End
     public static Item END_STONE_HELMET;
     public static Item END_STONE_CHESTPLATE;
@@ -99,6 +104,11 @@ public class ModItems {
         END_STONE_CHESTPLATE = registerItem("end_stone_chestplate", ModArmorTiers.END_STONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         END_STONE_LEGGINGS = registerItem("end_stone_leggings", ModArmorTiers.END_STONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         END_STONE_BOOTS = registerItem("end_stone_boots", ModArmorTiers.END_STONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        SMOOTH_BASALT_HELMET = registerItem("smooth_basalt_helmet", ModArmorTiers.SMOOTH_BASALT, ArmorItem.Type.HELMET, Rarity.COMMON);
+        SMOOTH_BASALT_CHESTPLATE = registerItem("smooth_basalt_chestplate", ModArmorTiers.SMOOTH_BASALT, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        SMOOTH_BASALT_LEGGINGS = registerItem("smooth_basalt_leggings", ModArmorTiers.SMOOTH_BASALT, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        SMOOTH_BASALT_BOOTS = registerItem("smooth_basalt_boots", ModArmorTiers.SMOOTH_BASALT, ArmorItem.Type.BOOTS, Rarity.COMMON);
     }
 
     private static Item registerItem(String name, ArmorMaterial material, ArmorItem.Type type, Rarity rarity) {
