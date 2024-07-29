@@ -45,5 +45,6 @@
   "item.moredefaultarmor.nylium_helmet": "Crimson Nylium Helmet",
   "item.moredefaultarmor.nylium_chestplate": "Crimson Nylium Chestplate",
   "item.moredefaultarmor.nylium_leggings": "Crimson Nylium Leggings",
-  "item.moredefaultarmor.nylium_boots": "Crimson Nylium Boots"
+  "item.moredefaultarmor.nylium_boots": "Crimson Nylium Boots",
+  "message.moredefaultarmor.update": "§6MoreDefaultArmor §8| §7There is a new update available: https://modrinth.com/mod/moredefaultarmor"
 }
