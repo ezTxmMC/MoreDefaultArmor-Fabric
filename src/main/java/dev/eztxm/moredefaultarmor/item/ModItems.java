@@ -116,9 +116,9 @@ public class ModItems {
         SMOOTH_BASALT_BOOTS = registerItem("smooth_basalt_boots", ModArmorTiers.SMOOTH_BASALT, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
         NYLIUM_HELMET = registerItem("nylium_helmet", ModArmorTiers.NYLIUM, ArmorItem.Type.HELMET, Rarity.COMMON);
-        NYLIUM_CHESTPLATE = registerItem("nylium_helmet", ModArmorTiers.NYLIUM, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
-        NYLIUM_LEGGINGS = registerItem("nylium_helmet", ModArmorTiers.NYLIUM, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
-        NYLIUM_BOOTS = registerItem("nylium_helmet", ModArmorTiers.NYLIUM, ArmorItem.Type.BOOTS, Rarity.COMMON);
+        NYLIUM_CHESTPLATE = registerItem("nylium_chestplate", ModArmorTiers.NYLIUM, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        NYLIUM_LEGGINGS = registerItem("nylium_leggings", ModArmorTiers.NYLIUM, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        NYLIUM_BOOTS = registerItem("nylium_boots", ModArmorTiers.NYLIUM, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
     }
 
