@@ -4,10 +4,9 @@ import dev.eztxm.moredefaultarmor.item.ModItemTabs;
 import dev.eztxm.moredefaultarmor.item.ModItems;
 import dev.eztxm.moredefaultarmor.util.UpdateChecker;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
+import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
-import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.Text;
 
 import java.util.Optional;
@@ -24,15 +23,17 @@ public class MoreDefaultArmor implements ModInitializer {
         ModItemTabs.setupItemGroups();
 
         Optional<ModContainer> modContainer = FabricLoader.getInstance().getModContainer(MOD_ID);
-        modContainer.ifPresent(container -> updateChecker = new UpdateChecker(container.getMetadata().getVersion().getFriendlyString()));
-        ServerLifecycleEvents.SERVER_STARTED.register(server -> {
-            server.getPlayerManager().getPlayerList().forEach(this::onPlayerJoin);
+        modContainer.ifPresent(container -> {
+            updateChecker = new UpdateChecker(container.getMetadata().getVersion().getFriendlyString());
+            updateChecker.getLatestVersion();
         });
-    }
 
-    private void onPlayerJoin(ServerPlayerEntity player) {
-        if (!updateChecker.latestVersion()) {
-            player.sendMessage(Text.translatable("message.moredefaultarmor.update"));
-        }
+        ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
+            if (updateChecker != null && !updateChecker.latestVersion()) {
+                if (client.player != null) {
+                    client.player.sendMessage(Text.translatable("message.moredefaultarmor.update"));
+                }
+            }
+        });
     }
 }
