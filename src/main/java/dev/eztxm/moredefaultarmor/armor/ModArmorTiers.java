@@ -26,6 +26,7 @@ public enum ModArmorTiers implements ArmorMaterial {
     // Nether
     NETHERRACK("netherrack", ModMaterial.NETHERRACK, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.NETHERRACK), new int[]{19, 28, 32, 25}),
     SMOOTH_BASALT("smooth_basalt", ModMaterial.SMOOTH_BASALT, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.SMOOTH_BASALT), new int[]{82, 87, 84, 71}),
+    NYLIUM("nylium", ModMaterial.NYLIUM, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.CRIMSON_NYLIUM), new int[]{22, 31, 35, 27}),
 
     // End
     END_STONE("end_stone", ModMaterial.END_STONE, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.END_STONE), new int[]{79, 84, 81, 68});

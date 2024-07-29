@@ -70,6 +70,11 @@ public class ModItemTabs {
                     entries.add(ModItems.SMOOTH_BASALT_CHESTPLATE);
                     entries.add(ModItems.SMOOTH_BASALT_LEGGINGS);
                     entries.add(ModItems.SMOOTH_BASALT_BOOTS);
+
+                    entries.add(ModItems.NYLIUM_HELMET);
+                    entries.add(ModItems.NYLIUM_CHESTPLATE);
+                    entries.add(ModItems.NYLIUM_LEGGINGS);
+                    entries.add(ModItems.NYLIUM_BOOTS);
                 })
                 .build());
         Registry.register(Registries.ITEM_GROUP, END_ARMORS_TAB, FabricItemGroup.builder()

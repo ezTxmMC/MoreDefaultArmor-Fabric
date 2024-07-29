@@ -10,6 +10,7 @@ public enum ModMaterial {
     // Nether
     NETHERRACK(1, 1, 1, 1, 0, 0, 0),
     SMOOTH_BASALT(2, 4, 4, 2, 0, 0, 0),
+    NYLIUM(1, 2, 2, 1, 0, 0, 0),
 
     // End
     END_STONE(2, 3, 4, 1, 0, 0, 0);

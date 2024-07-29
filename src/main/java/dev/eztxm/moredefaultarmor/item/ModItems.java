@@ -53,6 +53,11 @@ public class ModItems {
     public static Item SMOOTH_BASALT_LEGGINGS;
     public static Item SMOOTH_BASALT_BOOTS;
 
+    public static Item NYLIUM_HELMET;
+    public static Item NYLIUM_CHESTPLATE;
+    public static Item NYLIUM_LEGGINGS;
+    public static Item NYLIUM_BOOTS;
+
     // End
     public static Item END_STONE_HELMET;
     public static Item END_STONE_CHESTPLATE;
@@ -109,6 +114,12 @@ public class ModItems {
         SMOOTH_BASALT_CHESTPLATE = registerItem("smooth_basalt_chestplate", ModArmorTiers.SMOOTH_BASALT, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         SMOOTH_BASALT_LEGGINGS = registerItem("smooth_basalt_leggings", ModArmorTiers.SMOOTH_BASALT, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         SMOOTH_BASALT_BOOTS = registerItem("smooth_basalt_boots", ModArmorTiers.SMOOTH_BASALT, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        NYLIUM_HELMET = registerItem("nylium_helmet", ModArmorTiers.NYLIUM, ArmorItem.Type.HELMET, Rarity.COMMON);
+        NYLIUM_CHESTPLATE = registerItem("nylium_helmet", ModArmorTiers.NYLIUM, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        NYLIUM_LEGGINGS = registerItem("nylium_helmet", ModArmorTiers.NYLIUM, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        NYLIUM_BOOTS = registerItem("nylium_helmet", ModArmorTiers.NYLIUM, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
     }
 
     private static Item registerItem(String name, ArmorMaterial material, ArmorItem.Type type, Rarity rarity) {
