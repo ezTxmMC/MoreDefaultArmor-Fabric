@@ -37,5 +37,6 @@
   "item.moredefaultarmor.deepslate_cobble_helmet": "Cobbled Deepslate Helmet",
   "item.moredefaultarmor.deepslate_cobble_chestplate": "Cobbled Deepslate Chestplate",
   "item.moredefaultarmor.deepslate_cobble_leggings": "Cobbled Deepslate Leggings",
-  "item.moredefaultarmor.deepslate_cobble_boots": "Cobbled Deepslate Boots"
+  "item.moredefaultarmor.deepslate_cobble_boots": "Cobbled Deepslate Boots",
+  "message.moredefaultarmor.update": "§6MoreDefaultArmor §8| §7There is a new update available: https://modrinth.com/mod/moredefaultarmor"
 }
