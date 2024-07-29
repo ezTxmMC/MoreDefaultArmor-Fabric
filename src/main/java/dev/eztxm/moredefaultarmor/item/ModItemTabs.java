@@ -51,6 +51,10 @@ public class ModItemTabs {
                     entries.add(ModItems.GRANITE_CHESTPLATE);
                     entries.add(ModItems.GRANITE_LEGGINGS);
                     entries.add(ModItems.GRANITE_BOOTS);
+                    entries.add(ModItems.DEEPSLATE_COBBLE_HELMET);
+                    entries.add(ModItems.DEEPSLATE_COBBLE_CHESTPLATE);
+                    entries.add(ModItems.DEEPSLATE_COBBLE_LEGGINGS);
+                    entries.add(ModItems.DEEPSLATE_COBBLE_BOOTS);
                 })
                 .build());
         Registry.register(Registries.ITEM_GROUP, NETHER_ARMORS_TAB, FabricItemGroup.builder()

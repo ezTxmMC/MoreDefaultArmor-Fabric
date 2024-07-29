@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:cobbled_deepslate"
     }
   },
   "result": {
-    "item": "moredefaultarmor:end_stone_helmet"
+    "item": "moredefaultarmor:deepslate_cobble_helmet"
   }
 }

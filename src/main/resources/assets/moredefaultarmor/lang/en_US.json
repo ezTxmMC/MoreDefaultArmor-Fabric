@@ -33,5 +33,9 @@
   "item.moredefaultarmor.end_stone_helmet": "End Stone Helmet",
   "item.moredefaultarmor.end_stone_chestplate": "End Stone Chestplate",
   "item.moredefaultarmor.end_stone_leggings": "End Stone Leggings",
-  "item.moredefaultarmor.end_stone_boots": "End Stone Boots"
+  "item.moredefaultarmor.end_stone_boots": "End Stone Boots",
+  "item.moredefaultarmor.deepslate_cobble_helmet": "Cobbled Deepslate Helmet",
+  "item.moredefaultarmor.deepslate_cobble_chestplate": "Cobbled Deepslate Chestplate",
+  "item.moredefaultarmor.deepslate_cobble_leggings": "Cobbled Deepslate Leggings",
+  "item.moredefaultarmor.deepslate_cobble_boots": "Cobbled Deepslate Boots"
 }
