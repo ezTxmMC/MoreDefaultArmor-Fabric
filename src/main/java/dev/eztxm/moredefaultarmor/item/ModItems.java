@@ -12,7 +12,7 @@ import net.minecraft.util.Rarity;
 
 public class ModItems {
 
-    //overworld
+    // Overworld
     public static Item DIRT_HELMET;
     public static Item DIRT_CHESTPLATE;
     public static Item DIRT_LEGGINGS;
@@ -42,16 +42,17 @@ public class ModItems {
     public static Item DEEPSLATE_COBBLE_LEGGINGS;
     public static Item DEEPSLATE_COBBLE_BOOTS;
 
-    //nether
+    // Nether
     public static Item NETHERRACK_HELMET;
     public static Item NETHERRACK_CHESTPLATE;
     public static Item NETHERRACK_LEGGINGS;
     public static Item NETHERRACK_BOOTS;
-    //end
-    public static Item ENDSTONE_HELMET;
-    public static Item ENDSTONE_CHESTPLATE;
-    public static Item ENDSTONE_LEGGINGS;
-    public static Item ENDSTONE_BOOTS;
+
+    // End
+    public static Item END_STONE_HELMET;
+    public static Item END_STONE_CHESTPLATE;
+    public static Item END_STONE_LEGGINGS;
+    public static Item END_STONE_BOOTS;
 
     public static void registerItems() {
         DIRT_HELMET = registerItem("dirt_helmet", ModArmorTiers.DIRT, ArmorItem.Type.HELMET, Rarity.COMMON);
@@ -94,10 +95,10 @@ public class ModItems {
         NETHERRACK_LEGGINGS = registerItem("netherrack_leggings", ModArmorTiers.NETHERRACK, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         NETHERRACK_BOOTS = registerItem("netherrack_boots", ModArmorTiers.NETHERRACK, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
-        ENDSTONE_HELMET = registerItem("endstone_helmet", ModArmorTiers.ENDSTONE, ArmorItem.Type.HELMET, Rarity.COMMON);
-        ENDSTONE_CHESTPLATE = registerItem("endstone_chestplate", ModArmorTiers.ENDSTONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
-        ENDSTONE_LEGGINGS = registerItem("endstone_leggings", ModArmorTiers.ENDSTONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
-        ENDSTONE_BOOTS = registerItem("endstone_boots", ModArmorTiers.ENDSTONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
+        END_STONE_HELMET = registerItem("end_stone_helmet", ModArmorTiers.END_STONE, ArmorItem.Type.HELMET, Rarity.COMMON);
+        END_STONE_CHESTPLATE = registerItem("end_stone_chestplate", ModArmorTiers.END_STONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        END_STONE_LEGGINGS = registerItem("end_stone_leggings", ModArmorTiers.END_STONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        END_STONE_BOOTS = registerItem("end_stone_boots", ModArmorTiers.END_STONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
     }
 
     private static Item registerItem(String name, ArmorMaterial material, ArmorItem.Type type, Rarity rarity) {

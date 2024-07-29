@@ -64,13 +64,13 @@ public class ModItemTabs {
                 })
                 .build());
         Registry.register(Registries.ITEM_GROUP, END_ARMORS_TAB, FabricItemGroup.builder()
-                .icon(() -> new ItemStack(ModItems.ENDSTONE_CHESTPLATE))
+                .icon(() -> new ItemStack(ModItems.END_STONE_CHESTPLATE))
                 .displayName(Text.translatable("itemGroup.moredefaultarmor.end"))
                 .entries((displayContext, entries) -> {
-                    entries.add(ModItems.ENDSTONE_HELMET);
-                    entries.add(ModItems.ENDSTONE_CHESTPLATE);
-                    entries.add(ModItems.ENDSTONE_LEGGINGS);
-                    entries.add(ModItems.ENDSTONE_BOOTS);
+                    entries.add(ModItems.END_STONE_HELMET);
+                    entries.add(ModItems.END_STONE_CHESTPLATE);
+                    entries.add(ModItems.END_STONE_LEGGINGS);
+                    entries.add(ModItems.END_STONE_BOOTS);
                 })
                 .build());
     }
