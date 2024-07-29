@@ -1,7 +1,7 @@
 {
-  "itemGroup.moredefaultarmor.overworld": "More Default Armor - Overworld",
-  "itemGroup.moredefaultarmor.nether": "More Default Armor - Nether",
-  "itemGroup.moredefaultarmor.end": "More Default Armor - End",
+  "itemGroup.moredefaultarmor.overworld": "MoreDefaultArmor - Overworld",
+  "itemGroup.moredefaultarmor.nether": "MoreDefaultArmor - Nether",
+  "itemGroup.moredefaultarmor.end": "MoreDefaultArmor - End",
   "item.moredefaultarmor.dirt_helmet": "Dirt Helmet",
   "item.moredefaultarmor.dirt_chestplate": "Dirt Chestplate",
   "item.moredefaultarmor.dirt_leggings": "Dirt Leggings",

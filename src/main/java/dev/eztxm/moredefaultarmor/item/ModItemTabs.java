@@ -17,9 +17,9 @@ public class ModItemTabs {
     public static RegistryKey<ItemGroup> END_ARMORS_TAB;
 
     public static void registerItemGroups() {
-        OVERWORLD_ARMORS_TAB = registerItemGroup("overworldtab");
-        NETHER_ARMORS_TAB = registerItemGroup("nethertab");
-        END_ARMORS_TAB = registerItemGroup("endtab");
+        OVERWORLD_ARMORS_TAB = registerItemGroup("moredefaultarmor1overworldtab");
+        NETHER_ARMORS_TAB = registerItemGroup("moredefaultarmor2nethertab");
+        END_ARMORS_TAB = registerItemGroup("moredefaultarmor3endtab");
     }
 
     public static void setupItemGroups() {
