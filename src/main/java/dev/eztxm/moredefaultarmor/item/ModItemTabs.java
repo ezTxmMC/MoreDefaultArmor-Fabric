@@ -4,6 +4,7 @@ import dev.eztxm.moredefaultarmor.MoreDefaultArmor;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -12,16 +13,20 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemTabs {
-    public static RegistryKey<ItemGroup> WORLD_ARMORS_GROUP;
+    public static RegistryKey<ItemGroup> OVERWORLD_ARMORS_TAB;
+    public static RegistryKey<ItemGroup> NETHER_ARMORS_TAB;
+    public static RegistryKey<ItemGroup> END_ARMORS_TAB;
 
     public static void registerItemGroups() {
-        WORLD_ARMORS_GROUP = registerItemGroup("world_armors");
+        OVERWORLD_ARMORS_TAB = registerItemGroup("overworldtab");
+        NETHER_ARMORS_TAB = registerItemGroup("nethertab");
+        END_ARMORS_TAB = registerItemGroup("endtab");
     }
 
     public static void setupItemGroups() {
-        Registry.register(Registries.ITEM_GROUP, WORLD_ARMORS_GROUP, FabricItemGroup.builder()
+        Registry.register(Registries.ITEM_GROUP, OVERWORLD_ARMORS_TAB, FabricItemGroup.builder()
                 .icon(() -> new ItemStack(ModItems.OAK_CHESTPLATE))
-                .displayName(Text.of("MoreDefaultArmor - Overworld"))
+                .displayName(Text.translatable("itemGroup.moredefaultarmor.overworld"))
                 .entries((displayContext, entries) -> {
                     entries.add(ModItems.DIRT_HELMET);
                     entries.add(ModItems.DIRT_CHESTPLATE);
@@ -47,10 +52,23 @@ public class ModItemTabs {
                     entries.add(ModItems.GRANITE_CHESTPLATE);
                     entries.add(ModItems.GRANITE_LEGGINGS);
                     entries.add(ModItems.GRANITE_BOOTS);
+                })
+                .build());
+        Registry.register(Registries.ITEM_GROUP, NETHER_ARMORS_TAB, FabricItemGroup.builder()
+                .icon(() -> new ItemStack(ModItems.NETHERRACK_CHESTPLATE))
+                .displayName(Text.translatable("itemGroup.moredefaultarmor.nether"))
+                .entries((displayContext, entries) -> {
                     entries.add(ModItems.NETHERRACK_HELMET);
                     entries.add(ModItems.NETHERRACK_CHESTPLATE);
                     entries.add(ModItems.NETHERRACK_LEGGINGS);
                     entries.add(ModItems.NETHERRACK_BOOTS);
+                })
+                .build());
+        Registry.register(Registries.ITEM_GROUP, END_ARMORS_TAB, FabricItemGroup.builder()
+                .icon(() -> new ItemStack(Items.BARRIER))
+                .displayName(Text.translatable("itemGroup.moredefaultarmor.end"))
+                .entries((displayContext, entries) -> {
+
                 })
                 .build());
     }

@@ -1,5 +1,7 @@
 {
-  "itemGroup.moredefaultarmor.world_armors": "More Default Armor",
+  "itemGroup.moredefaultarmor.overworld": "More Default Armor - Overworld",
+  "itemGroup.moredefaultarmor.nether": "More Default Armor - Nether",
+  "itemGroup.moredefaultarmor.end": "More Default Armor - End",
   "item.moredefaultarmor.dirt_helmet": "Dirt Helmet",
   "item.moredefaultarmor.dirt_chestplate": "Dirt Chestplate",
   "item.moredefaultarmor.dirt_leggings": "Dirt Leggings",
@@ -16,10 +18,6 @@
   "item.moredefaultarmor.diorite_chestplate": "Diorite Chestplate",
   "item.moredefaultarmor.diorite_leggings": "Diorite Leggings",
   "item.moredefaultarmor.diorite_boots": "Diorite Boots",
-  "item.moredefaultarmor.netherrack_helmet": "Netherrack Helmet",
-  "item.moredefaultarmor.netherrack_chestplate": "Netherrack Chestplate",
-  "item.moredefaultarmor.netherrack_leggings": "Netherrack Leggings",
-  "item.moredefaultarmor.netherrack_boots": "Netherrack Boots",
   "item.moredefaultarmor.andesite_helmet": "Andesite Helmet",
   "item.moredefaultarmor.andesite_chestplate": "Andesite Chestplate",
   "item.moredefaultarmor.andesite_leggings": "Andesite Leggings",
@@ -27,5 +25,9 @@
   "item.moredefaultarmor.granite_helmet": "Granite Helmet",
   "item.moredefaultarmor.granite_chestplate": "Granite Chestplate",
   "item.moredefaultarmor.granite_leggings": "Granite Leggings",
-  "item.moredefaultarmor.granite_boots": "Granite Boots"
+  "item.moredefaultarmor.granite_boots": "Granite Boots",
+  "item.moredefaultarmor.netherrack_helmet": "Netherrack Helmet",
+  "item.moredefaultarmor.netherrack_chestplate": "Netherrack Chestplate",
+  "item.moredefaultarmor.netherrack_leggings": "Netherrack Leggings",
+  "item.moredefaultarmor.netherrack_boots": "Netherrack Boots"
 }
