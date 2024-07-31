@@ -6,6 +6,7 @@ public enum ModMaterial {
     DIRT(1, 1, 1, 1, 0, 0, 0),
     OAK(1, 2, 2, 1, 0, 0, 0),
     STONE(2, 3, 4, 1, 0, 0, 0),
+    RARE_STONE(3, 5, 4, 2, 0, 1, 0),
 
     // Nether
     NETHERRACK(1, 1, 1, 1, 0, 0, 0),
