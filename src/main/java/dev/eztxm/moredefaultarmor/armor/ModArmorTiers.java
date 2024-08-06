@@ -22,6 +22,8 @@ public enum ModArmorTiers implements ArmorMaterial {
     DIORITE("diorite", ModMaterial.STONE, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.DIORITE), new int[]{79, 84, 81, 68}),
     GRANITE("granite", ModMaterial.STONE, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.GRANITE), new int[]{79, 84, 81, 68}),
     DEEPSLATE_COBBLE("deepslate_cobble", ModMaterial.STONE, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.COBBLED_DEEPSLATE), new int[]{79, 84, 81, 68}),
+    PRISMARINE("prismarine", ModMaterial.RARE_STONE, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.PRISMARINE), new int[]{85, 97, 83, 76}),
+    PUMPKIN("pumpkin", ModMaterial.RARE_STONE, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.PUMPKIN), new int[]{85, 97, 83, 76}),
 
     // Nether
     NETHERRACK("netherrack", ModMaterial.NETHERRACK, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(Items.NETHERRACK), new int[]{19, 28, 32, 25}),

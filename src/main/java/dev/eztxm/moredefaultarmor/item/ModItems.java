@@ -41,6 +41,14 @@ public class ModItems {
     public static Item DEEPSLATE_COBBLE_CHESTPLATE;
     public static Item DEEPSLATE_COBBLE_LEGGINGS;
     public static Item DEEPSLATE_COBBLE_BOOTS;
+    public static Item PRISMARINE_HELMET;
+    public static Item PRISMARINE_CHESTPLATE;
+    public static Item PRISMARINE_LEGGINGS;
+    public static Item PRISMARINE_BOOTS;
+    public static Item PUMPKIN_HELMET;
+    public static Item PUMPKIN_CHESTPLATE;
+    public static Item PUMPKIN_LEGGINGS;
+    public static Item PUMPKIN_BOOTS;
 
     // Nether
     public static Item NETHERRACK_HELMET;
@@ -89,6 +97,16 @@ public class ModItems {
         DEEPSLATE_COBBLE_CHESTPLATE = registerItem("deepslate_cobble_chestplate", ModArmorTiers.DEEPSLATE_COBBLE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         DEEPSLATE_COBBLE_LEGGINGS = registerItem("deepslate_cobble_leggings", ModArmorTiers.DEEPSLATE_COBBLE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         DEEPSLATE_COBBLE_BOOTS = registerItem("deepslate_cobble_boots", ModArmorTiers.DEEPSLATE_COBBLE, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        PRISMARINE_HELMET = registerItem("prismarine_helmet", ModArmorTiers.PRISMARINE, ArmorItem.Type.HELMET, Rarity.COMMON);
+        PRISMARINE_CHESTPLATE = registerItem("prismarine_chestplate", ModArmorTiers.PRISMARINE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        PRISMARINE_LEGGINGS = registerItem("prismarine_leggings", ModArmorTiers.PRISMARINE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        PRISMARINE_BOOTS = registerItem("prismarine_boots", ModArmorTiers.PRISMARINE, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        PUMPKIN_HELMET = registerItem("pumpkin_helmet", ModArmorTiers.PUMPKIN, ArmorItem.Type.HELMET, Rarity.COMMON);
+        PUMPKIN_CHESTPLATE = registerItem("pumpkin_chestplate", ModArmorTiers.PUMPKIN, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        PUMPKIN_LEGGINGS = registerItem("pumpkin_leggings", ModArmorTiers.PUMPKIN, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        PUMPKIN_BOOTS = registerItem("pumpkin_boots", ModArmorTiers.PUMPKIN, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
         NETHERRACK_HELMET = registerItem("netherrack_helmet", ModArmorTiers.NETHERRACK, ArmorItem.Type.HELMET, Rarity.COMMON);
         NETHERRACK_CHESTPLATE = registerItem("netherrack_chestplate", ModArmorTiers.NETHERRACK, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
