@@ -68,6 +68,11 @@ public class ModItems {
     public static Item NETHER_BRICK_LEGGINGS;
     public static Item NETHER_BRICK_BOOTS;
 
+    public static Item WARPED_HELMET;
+    public static Item WARPED_CHESTPLATE;
+    public static Item WARPED_LEGGINGS;
+    public static Item WARPED_BOOTS;
+
     // End
     public static Item END_STONE_HELMET;
     public static Item END_STONE_CHESTPLATE;
@@ -139,6 +144,11 @@ public class ModItems {
         NETHER_BRICK_CHESTPLATE = registerItem("nether_brick_chestplate", ModArmorTiers.NETHER_BRICK, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         NETHER_BRICK_LEGGINGS = registerItem("nether_brick_leggings", ModArmorTiers.NETHER_BRICK, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         NETHER_BRICK_BOOTS = registerItem("nether_brick_boots", ModArmorTiers.NETHER_BRICK, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        WARPED_HELMET = registerItem("warped_helmet", ModArmorTiers.WARPED, ArmorItem.Type.HELMET, Rarity.COMMON);
+        WARPED_CHESTPLATE = registerItem("warped_chestplate", ModArmorTiers.WARPED, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        WARPED_LEGGINGS = registerItem("warped_leggings", ModArmorTiers.WARPED, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        WARPED_BOOTS = registerItem("warped_boots", ModArmorTiers.WARPED, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
     }
 

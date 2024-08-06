@@ -81,10 +81,15 @@ public class ModItemTabs {
                     entries.add(ModItems.NETHER_WART_LEGGINGS);
                     entries.add(ModItems.NETHER_WART_BOOTS);
 
-                    entries.add(ModItems.NETHERRACK_HELMET);
-                    entries.add(ModItems.NETHERRACK_CHESTPLATE);
-                    entries.add(ModItems.NETHERRACK_LEGGINGS);
-                    entries.add(ModItems.NETHERRACK_BOOTS);
+                    entries.add(ModItems.NETHER_BRICK_HELMET);
+                    entries.add(ModItems.NETHER_BRICK_CHESTPLATE);
+                    entries.add(ModItems.NETHER_BRICK_LEGGINGS);
+                    entries.add(ModItems.NETHER_BRICK_BOOTS);
+
+                    entries.add(ModItems.WARPED_HELMET);
+                    entries.add(ModItems.WARPED_CHESTPLATE);
+                    entries.add(ModItems.WARPED_LEGGINGS);
+                    entries.add(ModItems.WARPED_BOOTS);
                 })
                 .build());
         Registry.register(Registries.ITEM_GROUP, END_ARMORS_TAB, FabricItemGroup.builder()

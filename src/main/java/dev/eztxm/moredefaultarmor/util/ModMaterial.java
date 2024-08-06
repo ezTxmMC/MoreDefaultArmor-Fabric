@@ -13,6 +13,7 @@ public enum ModMaterial {
     NYLIUM(1, 2, 2, 1, 0, 0, 0),
     NETHER_WART(1, 2, 2, 1, 0, 0, 0),
     NETHER_BRICK(1,3,2,1,0,0,0),
+    WARPED(1, 2, 2, 1, 0, 0, 0),
 
     // End
     END_STONE(2, 3, 4, 1, 0, 0, 0);

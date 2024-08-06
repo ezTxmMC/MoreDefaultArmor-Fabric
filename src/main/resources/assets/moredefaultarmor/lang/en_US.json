@@ -54,5 +54,9 @@
   "item.moredefaultarmor.nether_brick_chestplate": "Nether Brick Chestplate",
   "item.moredefaultarmor.nether_brick_leggings": "Nether Brick Leggings",
   "item.moredefaultarmor.nether_brick_boots": "Nether Brick Boots",
+  "item.moredefaultarmor.warped_helmet": "Warped Nylium Helmet",
+  "item.moredefaultarmor.warped_chestplate": "Warped Nylium Chestplate",
+  "item.moredefaultarmor.warped_leggings": "Warped Nylium Leggings",
+  "item.moredefaultarmor.warped_boots": "Warped Nylium Boots",
   "message.moredefaultarmor.update": "§6MoreDefaultArmor §8| §7There is a new update available: https://modrinth.com/mod/moredefaultarmor"
 }
