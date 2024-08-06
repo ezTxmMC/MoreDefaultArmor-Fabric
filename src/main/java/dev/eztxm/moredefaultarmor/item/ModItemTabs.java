@@ -80,6 +80,11 @@ public class ModItemTabs {
                     entries.add(ModItems.NETHER_WART_CHESTPLATE);
                     entries.add(ModItems.NETHER_WART_LEGGINGS);
                     entries.add(ModItems.NETHER_WART_BOOTS);
+
+                    entries.add(ModItems.NETHERRACK_HELMET);
+                    entries.add(ModItems.NETHERRACK_CHESTPLATE);
+                    entries.add(ModItems.NETHERRACK_LEGGINGS);
+                    entries.add(ModItems.NETHERRACK_BOOTS);
                 })
                 .build());
         Registry.register(Registries.ITEM_GROUP, END_ARMORS_TAB, FabricItemGroup.builder()

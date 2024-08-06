@@ -50,5 +50,9 @@
   "item.moredefaultarmor.nether_wart_chestplate": "Nether Wart Chestplate",
   "item.moredefaultarmor.nether_wart_leggings": "Nether Wart Leggings",
   "item.moredefaultarmor.nether_wart_boots": "Nether Wart Boots",
+  "item.moredefaultarmor.nether_brick_helmet": "Nether Brick Helmet",
+  "item.moredefaultarmor.nether_brick_chestplate": "Nether Brick Chestplate",
+  "item.moredefaultarmor.nether_brick_leggings": "Nether Brick Leggings",
+  "item.moredefaultarmor.nether_brick_boots": "Nether Brick Boots",
   "message.moredefaultarmor.update": "§6MoreDefaultArmor §8| §7There is a new update available: https://modrinth.com/mod/moredefaultarmor"
 }

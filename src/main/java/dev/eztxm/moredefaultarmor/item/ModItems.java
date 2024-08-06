@@ -63,6 +63,11 @@ public class ModItems {
     public static Item NETHER_WART_LEGGINGS;
     public static Item NETHER_WART_BOOTS;
 
+    public static Item NETHER_BRICK_HELMET;
+    public static Item NETHER_BRICK_CHESTPLATE;
+    public static Item NETHER_BRICK_LEGGINGS;
+    public static Item NETHER_BRICK_BOOTS;
+
     // End
     public static Item END_STONE_HELMET;
     public static Item END_STONE_CHESTPLATE;
@@ -129,6 +134,11 @@ public class ModItems {
         NETHER_WART_CHESTPLATE = registerItem("nether_wart_chestplate", ModArmorTiers.NETHER_WART, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         NETHER_WART_LEGGINGS = registerItem("nether_wart_leggings", ModArmorTiers.NETHER_WART, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         NETHER_WART_BOOTS = registerItem("nether_wart_boots", ModArmorTiers.NETHER_WART, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        NETHER_BRICK_HELMET = registerItem("nether_brick_helmet", ModArmorTiers.NETHER_BRICK, ArmorItem.Type.HELMET, Rarity.COMMON);
+        NETHER_BRICK_CHESTPLATE = registerItem("nether_brick_chestplate", ModArmorTiers.NETHER_BRICK, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        NETHER_BRICK_LEGGINGS = registerItem("nether_brick_leggings", ModArmorTiers.NETHER_BRICK, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        NETHER_BRICK_BOOTS = registerItem("nether_brick_boots", ModArmorTiers.NETHER_BRICK, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
     }
 
