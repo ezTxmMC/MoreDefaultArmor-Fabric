@@ -42,9 +42,13 @@
   "item.moredefaultarmor.smooth_basalt_chestplate": "Smooth Basalt Chestplate",
   "item.moredefaultarmor.smooth_basalt_leggings": "Smooth Basalt Leggings",
   "item.moredefaultarmor.smooth_basalt_boots": "Smooth Basalt Boots",
-  "item.moredefaultarmor.nylium_helmet": "Crimson Nylium Helmet",
-  "item.moredefaultarmor.nylium_chestplate": "Crimson Nylium Chestplate",
-  "item.moredefaultarmor.nylium_leggings": "Crimson Nylium Leggings",
-  "item.moredefaultarmor.nylium_boots": "Crimson Nylium Boots",
+  "item.moredefaultarmor.nylium_helmet": "Nylium Helmet",
+  "item.moredefaultarmor.nylium_chestplate": "Nylium Chestplate",
+  "item.moredefaultarmor.nylium_leggings": "Nylium Leggings",
+  "item.moredefaultarmor.nylium_boots": "Nylium Boots",
+  "item.moredefaultarmor.nether_wart_helmet": "Nether Wart Helmet",
+  "item.moredefaultarmor.nether_wart_chestplate": "Nether Wart Chestplate",
+  "item.moredefaultarmor.nether_wart_leggings": "Nether Wart Leggings",
+  "item.moredefaultarmor.nether_wart_boots": "Nether Wart Boots",
   "message.moredefaultarmor.update": "§6MoreDefaultArmor §8| §7There is a new update available: https://modrinth.com/mod/moredefaultarmor"
 }

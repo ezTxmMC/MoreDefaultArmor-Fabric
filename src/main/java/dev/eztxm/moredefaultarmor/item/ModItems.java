@@ -58,6 +58,11 @@ public class ModItems {
     public static Item NYLIUM_LEGGINGS;
     public static Item NYLIUM_BOOTS;
 
+    public static Item NETHER_WART_HELMET;
+    public static Item NETHER_WART_CHESTPLATE;
+    public static Item NETHER_WART_LEGGINGS;
+    public static Item NETHER_WART_BOOTS;
+
     // End
     public static Item END_STONE_HELMET;
     public static Item END_STONE_CHESTPLATE;
@@ -119,6 +124,11 @@ public class ModItems {
         NYLIUM_CHESTPLATE = registerItem("nylium_chestplate", ModArmorTiers.NYLIUM, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         NYLIUM_LEGGINGS = registerItem("nylium_leggings", ModArmorTiers.NYLIUM, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         NYLIUM_BOOTS = registerItem("nylium_boots", ModArmorTiers.NYLIUM, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        NETHER_WART_HELMET = registerItem("nether_wart_helmet", ModArmorTiers.NETHER_WART, ArmorItem.Type.HELMET, Rarity.COMMON);
+        NETHER_WART_CHESTPLATE = registerItem("nether_wart_chestplate", ModArmorTiers.NETHER_WART, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        NETHER_WART_LEGGINGS = registerItem("nether_wart_leggings", ModArmorTiers.NETHER_WART, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        NETHER_WART_BOOTS = registerItem("nether_wart_boots", ModArmorTiers.NETHER_WART, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
     }
 
