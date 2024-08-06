@@ -45,6 +45,10 @@ public class ModItems {
     public static Item PRISMARINE_CHESTPLATE;
     public static Item PRISMARINE_LEGGINGS;
     public static Item PRISMARINE_BOOTS;
+    public static Item PUMPKIN_HELMET;
+    public static Item PUMPKIN_CHESTPLATE;
+    public static Item PUMPKIN_LEGGINGS;
+    public static Item PUMPKIN_BOOTS;
 
     // Nether
     public static Item NETHERRACK_HELMET;
@@ -98,6 +102,11 @@ public class ModItems {
         PRISMARINE_CHESTPLATE = registerItem("prismarine_chestplate", ModArmorTiers.PRISMARINE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         PRISMARINE_LEGGINGS = registerItem("prismarine_leggings", ModArmorTiers.PRISMARINE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         PRISMARINE_BOOTS = registerItem("prismarine_boots", ModArmorTiers.PRISMARINE, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        PUMPKIN_HELMET = registerItem("pumpkin_helmet", ModArmorTiers.PUMPKIN, ArmorItem.Type.HELMET, Rarity.COMMON);
+        PUMPKIN_CHESTPLATE = registerItem("pumpkin_chestplate", ModArmorTiers.PUMPKIN, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        PUMPKIN_LEGGINGS = registerItem("pumpkin_leggings", ModArmorTiers.PUMPKIN, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        PUMPKIN_BOOTS = registerItem("pumpkin_boots", ModArmorTiers.PUMPKIN, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
         NETHERRACK_HELMET = registerItem("netherrack_helmet", ModArmorTiers.NETHERRACK, ArmorItem.Type.HELMET, Rarity.COMMON);
         NETHERRACK_CHESTPLATE = registerItem("netherrack_chestplate", ModArmorTiers.NETHERRACK, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);

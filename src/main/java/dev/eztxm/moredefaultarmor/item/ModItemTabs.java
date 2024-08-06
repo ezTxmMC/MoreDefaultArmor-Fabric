@@ -59,6 +59,10 @@ public class ModItemTabs {
                     entries.add(ModItems.PRISMARINE_CHESTPLATE);
                     entries.add(ModItems.PRISMARINE_LEGGINGS);
                     entries.add(ModItems.PRISMARINE_BOOTS);
+                    entries.add(ModItems.PUMPKIN_HELMET);
+                    entries.add(ModItems.PUMPKIN_CHESTPLATE);
+                    entries.add(ModItems.PUMPKIN_LEGGINGS);
+                    entries.add(ModItems.PUMPKIN_BOOTS);
                 })
                 .build());
         Registry.register(Registries.ITEM_GROUP, NETHER_ARMORS_TAB, FabricItemGroup.builder()
