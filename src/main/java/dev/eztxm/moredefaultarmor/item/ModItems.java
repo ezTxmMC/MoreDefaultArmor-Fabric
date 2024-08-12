@@ -73,6 +73,16 @@ public class ModItems {
     public static Item WARPED_LEGGINGS;
     public static Item WARPED_BOOTS;
 
+    public static Item NETHER_QUARTZ_HELMET;
+    public static Item NETHER_QUARTZ_CHESTPLATE;
+    public static Item NETHER_QUARTZ_LEGGINGS;
+    public static Item NETHER_QUARTZ_BOOTS;
+
+    public static Item BLACKSTONE_HELMET;
+    public static Item BLACKSTONE_CHESTPLATE;
+    public static Item BLACKSTONE_LEGGINGS;
+    public static Item BLACKSTONE_BOOTS;
+
     // End
     public static Item END_STONE_HELMET;
     public static Item END_STONE_CHESTPLATE;
@@ -149,6 +159,16 @@ public class ModItems {
         WARPED_CHESTPLATE = registerItem("warped_chestplate", ModArmorTiers.WARPED, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         WARPED_LEGGINGS = registerItem("warped_leggings", ModArmorTiers.WARPED, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         WARPED_BOOTS = registerItem("warped_boots", ModArmorTiers.WARPED, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        NETHER_QUARTZ_HELMET = registerItem("nether_quartz_helmet", ModArmorTiers.NETHER_QUARTZ, ArmorItem.Type.HELMET, Rarity.COMMON);
+        NETHER_QUARTZ_CHESTPLATE = registerItem("nether_quartz_chestplate", ModArmorTiers.NETHER_QUARTZ, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        NETHER_QUARTZ_LEGGINGS = registerItem("nether_quartz_leggings", ModArmorTiers.NETHER_QUARTZ, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        NETHER_QUARTZ_BOOTS = registerItem("nether_quartz_boots", ModArmorTiers.NETHER_QUARTZ, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        BLACKSTONE_HELMET = registerItem("blackstone_helmet", ModArmorTiers.BLACKSTONE, ArmorItem.Type.HELMET, Rarity.COMMON);
+        BLACKSTONE_CHESTPLATE = registerItem("blackstone_chestplate", ModArmorTiers.BLACKSTONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        BLACKSTONE_LEGGINGS = registerItem("blackstone_leggings", ModArmorTiers.BLACKSTONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        BLACKSTONE_BOOTS = registerItem("blackstone_boots", ModArmorTiers.BLACKSTONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
 
     }
 

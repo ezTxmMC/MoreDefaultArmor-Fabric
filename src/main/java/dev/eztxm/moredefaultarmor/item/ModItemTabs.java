@@ -90,6 +90,16 @@ public class ModItemTabs {
                     entries.add(ModItems.WARPED_CHESTPLATE);
                     entries.add(ModItems.WARPED_LEGGINGS);
                     entries.add(ModItems.WARPED_BOOTS);
+
+                    entries.add(ModItems.NETHER_QUARTZ_HELMET);
+                    entries.add(ModItems.NETHER_QUARTZ_CHESTPLATE);
+                    entries.add(ModItems.NETHER_QUARTZ_LEGGINGS);
+                    entries.add(ModItems.NETHER_QUARTZ_BOOTS);
+
+                    entries.add(ModItems.BLACKSTONE_HELMET);
+                    entries.add(ModItems.BLACKSTONE_CHESTPLATE);
+                    entries.add(ModItems.BLACKSTONE_LEGGINGS);
+                    entries.add(ModItems.BLACKSTONE_BOOTS);
                 })
                 .build());
         Registry.register(Registries.ITEM_GROUP, END_ARMORS_TAB, FabricItemGroup.builder()

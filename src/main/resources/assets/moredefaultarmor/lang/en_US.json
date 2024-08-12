@@ -58,5 +58,13 @@
   "item.moredefaultarmor.warped_chestplate": "Warped Nylium Chestplate",
   "item.moredefaultarmor.warped_leggings": "Warped Nylium Leggings",
   "item.moredefaultarmor.warped_boots": "Warped Nylium Boots",
+  "item.moredefaultarmor.nether_quartz_helmet": "Nether Quartz Ore Helmet",
+  "item.moredefaultarmor.nether_quartz_chestplate": "Nether Quartz Ore Chestplate",
+  "item.moredefaultarmor.nether_quartz_leggings": "Nether Quartz Ore Leggings",
+  "item.moredefaultarmor.nether_quartz_boots": "Nether Quartz Ore Boots",
+  "item.moredefaultarmor.blackstone_helmet": "Blackstone Helmet",
+  "item.moredefaultarmor.blackstone_chestplate": "Blackstone Chestplate",
+  "item.moredefaultarmor.blackstone_leggings": "Blackstone Leggings",
+  "item.moredefaultarmor.blackstone_boots": "Blackstone Boots",
   "message.moredefaultarmor.update": "§6MoreDefaultArmor §8| §7There is a new update available: https://modrinth.com/mod/moredefaultarmor"
 }
