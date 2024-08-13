@@ -48,6 +48,41 @@ public class ModItems {
     public static Item NETHERRACK_LEGGINGS;
     public static Item NETHERRACK_BOOTS;
 
+    public static Item SMOOTH_BASALT_HELMET;
+    public static Item SMOOTH_BASALT_CHESTPLATE;
+    public static Item SMOOTH_BASALT_LEGGINGS;
+    public static Item SMOOTH_BASALT_BOOTS;
+
+    public static Item NYLIUM_HELMET;
+    public static Item NYLIUM_CHESTPLATE;
+    public static Item NYLIUM_LEGGINGS;
+    public static Item NYLIUM_BOOTS;
+
+    public static Item NETHER_WART_HELMET;
+    public static Item NETHER_WART_CHESTPLATE;
+    public static Item NETHER_WART_LEGGINGS;
+    public static Item NETHER_WART_BOOTS;
+
+    public static Item NETHER_BRICK_HELMET;
+    public static Item NETHER_BRICK_CHESTPLATE;
+    public static Item NETHER_BRICK_LEGGINGS;
+    public static Item NETHER_BRICK_BOOTS;
+
+    public static Item WARPED_HELMET;
+    public static Item WARPED_CHESTPLATE;
+    public static Item WARPED_LEGGINGS;
+    public static Item WARPED_BOOTS;
+
+    public static Item NETHER_QUARTZ_HELMET;
+    public static Item NETHER_QUARTZ_CHESTPLATE;
+    public static Item NETHER_QUARTZ_LEGGINGS;
+    public static Item NETHER_QUARTZ_BOOTS;
+
+    public static Item BLACKSTONE_HELMET;
+    public static Item BLACKSTONE_CHESTPLATE;
+    public static Item BLACKSTONE_LEGGINGS;
+    public static Item BLACKSTONE_BOOTS;
+
     // End
     public static Item END_STONE_HELMET;
     public static Item END_STONE_CHESTPLATE;
@@ -99,6 +134,42 @@ public class ModItems {
         END_STONE_CHESTPLATE = registerItem("end_stone_chestplate", ModArmorTiers.END_STONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
         END_STONE_LEGGINGS = registerItem("end_stone_leggings", ModArmorTiers.END_STONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
         END_STONE_BOOTS = registerItem("end_stone_boots", ModArmorTiers.END_STONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        SMOOTH_BASALT_HELMET = registerItem("smooth_basalt_helmet", ModArmorTiers.SMOOTH_BASALT, ArmorItem.Type.HELMET, Rarity.COMMON);
+        SMOOTH_BASALT_CHESTPLATE = registerItem("smooth_basalt_chestplate", ModArmorTiers.SMOOTH_BASALT, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        SMOOTH_BASALT_LEGGINGS = registerItem("smooth_basalt_leggings", ModArmorTiers.SMOOTH_BASALT, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        SMOOTH_BASALT_BOOTS = registerItem("smooth_basalt_boots", ModArmorTiers.SMOOTH_BASALT, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        NYLIUM_HELMET = registerItem("nylium_helmet", ModArmorTiers.NYLIUM, ArmorItem.Type.HELMET, Rarity.COMMON);
+        NYLIUM_CHESTPLATE = registerItem("nylium_chestplate", ModArmorTiers.NYLIUM, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        NYLIUM_LEGGINGS = registerItem("nylium_leggings", ModArmorTiers.NYLIUM, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        NYLIUM_BOOTS = registerItem("nylium_boots", ModArmorTiers.NYLIUM, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        NETHER_WART_HELMET = registerItem("nether_wart_helmet", ModArmorTiers.NETHER_WART, ArmorItem.Type.HELMET, Rarity.COMMON);
+        NETHER_WART_CHESTPLATE = registerItem("nether_wart_chestplate", ModArmorTiers.NETHER_WART, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        NETHER_WART_LEGGINGS = registerItem("nether_wart_leggings", ModArmorTiers.NETHER_WART, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        NETHER_WART_BOOTS = registerItem("nether_wart_boots", ModArmorTiers.NETHER_WART, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        NETHER_BRICK_HELMET = registerItem("nether_brick_helmet", ModArmorTiers.NETHER_BRICK, ArmorItem.Type.HELMET, Rarity.COMMON);
+        NETHER_BRICK_CHESTPLATE = registerItem("nether_brick_chestplate", ModArmorTiers.NETHER_BRICK, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        NETHER_BRICK_LEGGINGS = registerItem("nether_brick_leggings", ModArmorTiers.NETHER_BRICK, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        NETHER_BRICK_BOOTS = registerItem("nether_brick_boots", ModArmorTiers.NETHER_BRICK, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        WARPED_HELMET = registerItem("warped_helmet", ModArmorTiers.WARPED, ArmorItem.Type.HELMET, Rarity.COMMON);
+        WARPED_CHESTPLATE = registerItem("warped_chestplate", ModArmorTiers.WARPED, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        WARPED_LEGGINGS = registerItem("warped_leggings", ModArmorTiers.WARPED, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        WARPED_BOOTS = registerItem("warped_boots", ModArmorTiers.WARPED, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        NETHER_QUARTZ_HELMET = registerItem("nether_quartz_helmet", ModArmorTiers.NETHER_QUARTZ, ArmorItem.Type.HELMET, Rarity.COMMON);
+        NETHER_QUARTZ_CHESTPLATE = registerItem("nether_quartz_chestplate", ModArmorTiers.NETHER_QUARTZ, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        NETHER_QUARTZ_LEGGINGS = registerItem("nether_quartz_leggings", ModArmorTiers.NETHER_QUARTZ, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        NETHER_QUARTZ_BOOTS = registerItem("nether_quartz_boots", ModArmorTiers.NETHER_QUARTZ, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
+        BLACKSTONE_HELMET = registerItem("blackstone_helmet", ModArmorTiers.BLACKSTONE, ArmorItem.Type.HELMET, Rarity.COMMON);
+        BLACKSTONE_CHESTPLATE = registerItem("blackstone_chestplate", ModArmorTiers.BLACKSTONE, ArmorItem.Type.CHESTPLATE, Rarity.COMMON);
+        BLACKSTONE_LEGGINGS = registerItem("blackstone_leggings", ModArmorTiers.BLACKSTONE, ArmorItem.Type.LEGGINGS, Rarity.COMMON);
+        BLACKSTONE_BOOTS = registerItem("blackstone_boots", ModArmorTiers.BLACKSTONE, ArmorItem.Type.BOOTS, Rarity.COMMON);
+
     }
 
     private static Item registerItem(String name, ArmorMaterial material, ArmorItem.Type type, Rarity rarity) {

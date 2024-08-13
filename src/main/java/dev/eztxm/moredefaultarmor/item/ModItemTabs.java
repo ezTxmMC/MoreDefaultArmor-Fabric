@@ -65,6 +65,41 @@ public class ModItemTabs {
                     entries.add(ModItems.NETHERRACK_CHESTPLATE);
                     entries.add(ModItems.NETHERRACK_LEGGINGS);
                     entries.add(ModItems.NETHERRACK_BOOTS);
+
+                    entries.add(ModItems.SMOOTH_BASALT_HELMET);
+                    entries.add(ModItems.SMOOTH_BASALT_CHESTPLATE);
+                    entries.add(ModItems.SMOOTH_BASALT_LEGGINGS);
+                    entries.add(ModItems.SMOOTH_BASALT_BOOTS);
+
+                    entries.add(ModItems.NYLIUM_HELMET);
+                    entries.add(ModItems.NYLIUM_CHESTPLATE);
+                    entries.add(ModItems.NYLIUM_LEGGINGS);
+                    entries.add(ModItems.NYLIUM_BOOTS);
+
+                    entries.add(ModItems.NETHER_WART_HELMET);
+                    entries.add(ModItems.NETHER_WART_CHESTPLATE);
+                    entries.add(ModItems.NETHER_WART_LEGGINGS);
+                    entries.add(ModItems.NETHER_WART_BOOTS);
+
+                    entries.add(ModItems.NETHER_BRICK_HELMET);
+                    entries.add(ModItems.NETHER_BRICK_CHESTPLATE);
+                    entries.add(ModItems.NETHER_BRICK_LEGGINGS);
+                    entries.add(ModItems.NETHER_BRICK_BOOTS);
+
+                    entries.add(ModItems.WARPED_HELMET);
+                    entries.add(ModItems.WARPED_CHESTPLATE);
+                    entries.add(ModItems.WARPED_LEGGINGS);
+                    entries.add(ModItems.WARPED_BOOTS);
+
+                    entries.add(ModItems.NETHER_QUARTZ_HELMET);
+                    entries.add(ModItems.NETHER_QUARTZ_CHESTPLATE);
+                    entries.add(ModItems.NETHER_QUARTZ_LEGGINGS);
+                    entries.add(ModItems.NETHER_QUARTZ_BOOTS);
+
+                    entries.add(ModItems.BLACKSTONE_HELMET);
+                    entries.add(ModItems.BLACKSTONE_CHESTPLATE);
+                    entries.add(ModItems.BLACKSTONE_LEGGINGS);
+                    entries.add(ModItems.BLACKSTONE_BOOTS);
                 })
                 .build());
         Registry.register(Registries.ITEM_GROUP, END_ARMORS_TAB, FabricItemGroup.builder()
